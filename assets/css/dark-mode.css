@@ -1,0 +1,103 @@
+/* ==================
+	   DARK MODE 
+   =========================== */
+
+html, body {
+    background-color: #181a1b !important;
+    color: #cccccc !important;
+}
+
+body, input, textarea, select {
+    color: #cccccc !important;
+}
+
+/* a { color: #9e9689 !important; } */
+a { color: #ffffff !important; }
+a:hover { color: #ffffff !important; }
+
+h1, h2, h3, h4, h5, h6 { color: #b6b0a7 !important; }
+strong, b { color: #b6b0a7 !important; }
+
+hr { border-top-color: #3a3e41 !important; }
+
+/* ---- WRAPPERS ---- */
+.wrapper.style2 { background-color: #1e2021 !important; }
+.wrapper.style2 .title {
+    background-color: #1e2021 !important;
+    color: #e8e6e3 !important;
+}
+
+.wrapper.style3 {
+/*    background-color: #1f2123 !important;*/
+/*    background-color: #202224 !important;*/
+/*    background-color: #3d4249 !important;*/
+    background-color: #252830 !important;
+
+    background-image: none !important;
+}
+.wrapper.style3 .title {
+/*    background-color: #3d4249 !important;*/
+    background-color: #252830 !important;
+    background-image: none !important;
+    color: #e8e6e3 !important;
+}
+
+/* ---- SEÇÃO "PRÓXIMO PROCESSO SELETIVO" (inline override) ---- */
+section#importante.wrapper { background-color: #555502 !important; }
+div#importante.title {
+    background-color: #555502 !important;
+    color: #e8e6e3 !important;
+}
+
+/* ---- CARDS .item ---- */
+.item {
+    background-color: #252830 !important;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.4) !important;
+}
+.item h3 { color: #e0e0e0 !important; }
+.item h4 { color: #c0c0c0 !important; }
+.item p  { border-top-color: #3a3e41 !important; }
+
+/* ---- TABELAS ---- */
+table.default thead { background-color: #3b4042 !important; color: #e8e6e3 !important; }
+table.default tbody tr:nth-child(2n+2) { background-color: #222426 !important; }
+table.default tfoot { background-color: #222426 !important; }
+.tabela-professores th { color: #b6b0a7 !important; border-bottom-color: #3a3e41 !important; }
+.tabela-professores tr { border-bottom-color: #3a3e41 !important; }
+
+/* ---- FORMULÁRIOS ---- */
+form input[type="text"], form input[type="email"],
+form input[type="password"], form select, form textarea {
+    background-color: #2e2e2e !important;
+    color: #cccccc !important;
+    box-shadow: inset 0px 0px 1px 0px #555 !important;
+}
+form input[type="text"]:focus, form input[type="email"]:focus,
+form input[type="password"]:focus, form select:focus, form textarea:focus {
+    background-color: #383838 !important;
+}
+form label { color: #b6b0a7 !important; }
+
+/* ---- ACCORDION ---- */
+.accordion { background-color: #2e3038 !important; color: #cccccc !important; }
+.accordion:hover { background-color: #3a3e45 !important; }
+.accordion.active { background-color: #3a3e45 !important; }
+.panel { background-color: #252830 !important; color: #cccccc !important; }
+
+/* ---- LISTAS COM BORDA ---- */
+ul.style2 li, ul.style3 li { border-top-color: #3a3e41 !important; }
+.feature-list section { border-top-color: #3a3e41 !important; }
+
+/* ---- FOOTER ---- */
+#footer { background-color: #14161c !important; }
+#footer .title { background-color: #14161c !important; }
+footer form input[type="text"], footer form input[type="email"],
+footer form select, footer form textarea { background-color: #35393b !important; }
+footer form input:focus, footer form select:focus, footer form textarea:focus {
+    background-color: #404446 !important;
+}
+
+/* ---- CARROSSEL ---- */
+.carousel .item { box-shadow: 0px 0px 15px #2a2a2a !important; }
+.carousel-indicators li { background-color: #3c4143 !important; }
+.carousel-indicators li.active { background-color: #888 !important; }
