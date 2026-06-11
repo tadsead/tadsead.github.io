@@ -3282,6 +3282,14 @@ button.swimming-green:hover, button.swimming-green:hover:after, button.swimming-
 	color: white !important;
 }
 
+.red, .red:after {
+	color: #FF2800 !important;
+}
+
+button.red:hover, button.red:hover:after, button.red.active, button.red.active::after {
+	background-color: #FF2800 !important;
+	color: white !important;
+}
 
 .carousel {
 	padding: 3em;
