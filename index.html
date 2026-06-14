@@ -545,6 +545,7 @@ o Ética organizacional e ambiental. Sustentabilidade e responsabilidade socioam
 							</ul>
 						</div>
 					</div>
+				 <span id="contador-visitas"></span>
 				</section>
 		</div>
 
@@ -634,6 +635,19 @@ o Ética organizacional e ambiental. Sustentabilidade e responsabilidade socioam
 			
 			<script data-goatcounter="https://tadsead.goatcounter.com/count"
 			        async src="//gc.zgo.at/count.js">
+			</script>
+			
+			<script>
+				var t = setInterval(function() {
+					if (window.goatcounter && window.goatcounter.visit_count) {
+						clearInterval(t);
+						window.goatcounter.visit_count({
+							append: '#contador-visitas',
+							type: 'html',
+							no_branding: true
+						});
+					}
+				}, 100);
 			</script>
 	</body>
 </html>
