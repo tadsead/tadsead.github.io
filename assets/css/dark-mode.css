@@ -42,7 +42,7 @@ hr { border-top-color: #3a3e41 !important; }
     color: #e8e6e3 !important;
 }
 
-/* ---- SEÇÃO "PRÓXIMO PROCESSO SELETIVO" (inline override) ---- */
+/* ---- SEÇÃO "INFORMACOES" (inline override) ---- */
 section#importante.wrapper { background-color: #555502 !important; }
 div#importante.title {
     background-color: #555502 !important;
